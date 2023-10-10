@@ -175,7 +175,7 @@ def three_color_flag_horizontal(width, color1, color2, color3):
     start_x = end_flag_x
     start_y = end_flag_y
 
-def european_flag(width, color):
+def european_flag(width):
     """Dessine le drapeau de l'Union Européenne.
 
     pre: La tortue `tortue` est initialisée.
