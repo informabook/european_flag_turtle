@@ -194,7 +194,7 @@ def european_flag(width, color):
     tortue.goto(start_x, start_y)
     tortue.pendown()
 
-    tortue.color(color)
+    tortue.color("darkblue")
     tortue.pendown()
     tortue.begin_fill()
     for i in range(2):
@@ -310,7 +310,7 @@ def grece(width):
 start_x = -100
 start_y = 0
 
-european_flag(400, "darkblue") #dessin drapeau européen
+european_flag(400) #dessin drapeau européen
 
 start_x = -450
 start_y = 200
